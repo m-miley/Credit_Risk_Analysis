@@ -39,4 +39,4 @@ Model 2 offers no significant improvement in predicting high_risk loans.  In fac
 
 
 4. **Model 4**  -  SMOTEENN + LogisticRegression
-![Screen Shot 2022-07-15 at 6 10 03 PM](https://user-images.githubusercontent.com/100544761/179322897-46be726a-4095-423a-babb-2dc48ba15eb5.png)
+![Screen Shot 2022-07-15 at 6 21 37 PM](https://user-images.githubusercontent.com/100544761/179323631-685bbd4b-442f-4f98-84cb-b57651c02f8e.png)
