@@ -27,9 +27,9 @@ Each data set was split into train and test groups using train_test_split by skl
 ![Screen Shot 2022-07-15 at 5 17 48 PM](https://user-images.githubusercontent.com/100544761/179318707-a73220b7-7543-4576-aa5c-afda4580bc01.png)
 
 1. **Model 1**  -  RandomOverSampler + LogisticRegression:
-![Screen Shot 2022-07-15 at 5 27 42 PM](https://user-images.githubusercontent.com/100544761/179319360-c10b6239-1f84-41c1-81df-e0066120f0ff.png)
+![Screen Shot 2022-07-15 at 5 53 06 PM](https://user-images.githubusercontent.com/100544761/179321853-1e17afac-b6d3-437a-ab27-1894deedc406.png)
 Model 1 offers a decent predictability for low_risk loans.  A near perfect *precision* score as most low_risk predictions were correct, however, the *recall* or *sensitivity* score indicates that of the actual low_risk loans, a lesser 86 percent will be predicted to be low_risk, which is decent.  Notice how the high_risk *precision* rating is virtually zero, meaning that 3 percent of predicted high_risk loans were actually high_risk.  On the other hand, with a *sensitivity* rating of 72 percent, a good number of all the actual high_risk loans were successfully predicted.  So, in other words, if *precision* is important, this model isn't desirable.  If *recall* or *sensitivity* is important, meaning if we want to predict as many actual high risk loans as possible (which I suggest for the purposes of this analysis), then this model is moderately capable of proper classification. Let's see if we can execute implement more machine learning models that improve the outcome.
 
 2. **Model 2**  -  SMOTE Oversampling + Logistic Regression:
-![Screen Shot 2022-07-15 at 5 28 19 PM](https://user-images.githubusercontent.com/100544761/179321302-32ad415a-0241-445c-95f5-c8f9248e1812.png)
-Model 2 offers no significant improvement in predicting high_risk loans.  In fact, it predicts fewer actual high_risk loans which is a step in the wrong direction.  We know this as the "rec" score is lower by 2%.    
+![Screen Shot 2022-07-15 at 5 53 13 PM](https://user-images.githubusercontent.com/100544761/179321875-4df897e1-f38d-41fc-905f-178dcfba4670.png)
+Model 2 offers no significant improvement in predicting high_risk loans.  In fact, it predicts fewer actual high_risk loans which is a step in the wrong direction.  We know this as the "rec" (recall) score is lower by 2%.    
