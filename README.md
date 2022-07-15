@@ -26,5 +26,6 @@ Data Analysis and Machine Learning project designed to predict credit risk for a
 Each data set was split into train and test groups using train_test_split by sklearn.  The X features were then standardized to ensure that larger numbers weren't disproportionately impacting the models
 ![Screen Shot 2022-07-15 at 5 17 48 PM](https://user-images.githubusercontent.com/100544761/179318707-a73220b7-7543-4576-aa5c-afda4580bc01.png)
 
-1. Model 1 involved oversampling the imbalanced data using RandomOverSampler.  A Logistic Regression model was then fit and used to predict outcomes.  Results were as follows:
+1. **Model 1**  -  RandomOverSampler + LogisticRegression:
 ![Screen Shot 2022-07-15 at 5 27 42 PM](https://user-images.githubusercontent.com/100544761/179319360-c10b6239-1f84-41c1-81df-e0066120f0ff.png)
+Offers a decent predictability for low_risk loans.  A near perfect precision score as most low predictions were correct, however the recall or sensitivity score indicates that of the actual low_risk loans only 86 percent will be predicted to be low_risk.  Notice how the high_risk precision rating is virtually zero, meaning that 3 percent of predicted high_risk loans were actually high_risk.  On the other hand, with a sensitivity rating of 72 percent, a good number of all the actual high_risk loans were successfully predicted.
