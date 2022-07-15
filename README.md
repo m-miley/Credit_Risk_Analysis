@@ -32,4 +32,4 @@ Model 1 offers a decent predictability for low_risk loans.  A near perfect *prec
 
 2. **Model 2**  -  SMOTE Oversampling + Logistic Regression:
 ![Screen Shot 2022-07-15 at 5 28 19 PM](https://user-images.githubusercontent.com/100544761/179321302-32ad415a-0241-445c-95f5-c8f9248e1812.png)
-
+Model 2 offers no significant improvement in predicting high_risk loans.  In fact, it predicts fewer actual high_risk loans which is a step in the wrong direction.  We know this as the "rec" score is lower by 2%.    
