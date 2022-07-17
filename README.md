@@ -58,5 +58,5 @@ Now, the next question would be "What percentage of predictability is acceptable
 
 ### Contact
 
-Email: mrmileyy@gmail.com
+Email: mrmileyy@gmail.com<br>
 [LinkedIn](https://www.linkedin.com/in/mileymarshall)
