@@ -55,3 +55,8 @@ The Easy Ensemble Classifier is an ensemble learning machine learning model comp
 In summary, I as mentioned above, I recommend using the Easy Ensemble Classifier machine learning model (EEC) if chosing between the models in our analysis.  It provides sufficient results in predicting actual high risk loans.  Though not terribly precise, it has shown to predict them with an sensitivity score of 91%.  This, presumably, was the goal of our analysis, to produce a machine learning model that predicts a high percentage of high risk laons.  Furthermore, the accuracy score was significantly higher in Model 6.  The accuracy score represents the number of correctly classified instances per total number of instances.  
 
 Now, the next question would be "What percentage of predictability is acceptable?"  We will have to consult other business leaders and discuss as a team what we deem significant.
+
+### Contact
+
+Email: mrmileyy@gmail.com
+[LinkedIn](https://www.linkedin.com/in/mileymarshall)
