@@ -19,7 +19,7 @@
 
 ## Overview
 
-Data Analysis and Machine Learning project designed to predict credit risk for a money lending company.  Given that credit risk is largely unbalanced in classification, the implementation of resampling techniques such as oversampling, undersampling, and combination sampling to increase the effectiveness of the machine learning models is necessary.  Pre-processing techniques were applied to prepare the data for modeling such as encoding strings using .get_dummies() which splits the columns and maintains binary assignment, and StandardScaler to scale and standardize the data for balance and accuracy.  Our models were then initialized, trained (fit), predicted, and tested for accuracy using accuracy_score, a confusion matrix, and further displayed via classification report.
+Data Analysis and Machine Learning project designed to predict credit risk for a money lending company.  Given that credit risk is largely unbalanced in classification, the implementation of resampling techniques such as oversampling, undersampling, and combination sampling to increase the effectiveness of the machine learning models is necessary.  Pre-processing techniques were applied to prepare the data for modeling such as encoding strings using .get_dummies() which splits the columns and maintains binary assignment, and StandardScaler to scale and standardize the data for balance and accuracy.  The models were then initialized, trained (fit), predicted, and tested for accuracy using accuracy_score, a confusion matrix, and further displayed via classification report.
 
 ## Results
 
@@ -52,7 +52,7 @@ The Easy Ensemble Classifier is an ensemble learning machine learning model comp
 
 ## Summary
 
-In conclusion, I as mentioned above, I recommend using the Easy Ensemble Classifier machine learning model (EEC) if chosing between the models in our analysis.  It provides sufficient results in predicting actual high risk loans.  Though not terribly precise, it has shown to predict them with an sensitivity score of 91%.  This, presumably, was the goal of our analysis, to produce a machine learning model that predicts a high percentage of high risk laons.  Furthermore, the accuracy score was significantly higher in Model 6.  The accuracy score represents the number of correctly classified instances per total number of instances.  
+In conclusion, I as mentioned above, I recommend using the Easy Ensemble Classifier machine learning model (EEC) if chosing between the models in our analysis.  It provides sufficient results in predicting actual high risk loans.  Though not terribly precise, it has shown to predict them with an sensitivity score of 91%.  This, presumably, was the goal of our analysis, to produce a machine learning model that predicts a high percentage of high risk loans.  Furthermore, the accuracy score was significantly higher in Model 6.  The accuracy score represents the number of correctly classified instances per total number of instances.  
 
 Now, the next question would be "What percentage of predictability is acceptable?"  We will have to consult other business leaders and discuss as a team what we deem significant.
 
